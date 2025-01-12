@@ -3,9 +3,8 @@
 <h2>Goal</h2>
 <br />In the network that I am setting up, I will configure the Zurich network users to have access to the HQ servers, ensuring that users from the Zurich side can seamlessly connect to the Abu Dhabi servers.
 Additionally, to ensure optimal connectivity, I will configure VLANs (Virtual Local Area Network), OSPF (Open Shortest Path First), VPN (Virtual Private Network), NAT (Network Address Translation), DTP (Dynamic Trunking Protocol), and HSRP (Hot Standby Router Protocol) in this lab environment.
-Furthermore, I will deploy three routers—one for the Zurich side, one for the Internet ISP, and one for the HQ side—along with three servers, two distribution layer switches (one active and one standby for redundancy), four switches, three PCs, and three laptops. OSPF will be configured on the routers and distribution layer switches, while the ISP router will be configured with GRE (Generic Routing Encapsulation) to facilitate information transfer between the two sides. Additional details are provided in the accompanying diagram
 <br />
-
+Furthermore, I will deploy three routers—one for the Zurich side, one for the Internet ISP, and one for the HQ side—along with three servers, two distribution layer switches (one active and one standby for redundancy), four switches, three PCs, and three laptops. OSPF will be configured on the routers and distribution layer switches, while the ISP router will be configured with GRE (Generic Routing Encapsulation) to facilitate information transfer between the two sides. Additional details are provided in the accompanying diagram
 
 <h2>Environments Used </h2>
 
