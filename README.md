@@ -56,6 +56,49 @@ Step Nr.7 : configuration between distribution layer and core layer: <br/>
 <img src="https://i.imgur.com/YVb6uhX.png" height="80%" width="80%" alt="Lab Steps Nr.7"/>
 <img src="https://i.imgur.com/5ULt5EQ.png" height="80%" width="80%" alt="Lab Steps Nr.7"/>
 <br />
+Step Nr.8: Next, I will configure the router's internet interfaces and proceed to create a second loopback IP address.
+<p align="center">
+Step Nr.8 : configuration interfaces and proceed to create loopback IP: <br/>
+<img src="https://i.imgur.com/kgYdtF0.png" height="80%" width="80%" alt="Lab Steps Nr.8"/>
+<br />
+Step Nr.9: Next, I will configure the OSPF routing protocol between the distribution layer switch and the Zurich router. I will begin by configuring OSPF on the distribution switch and include all VLANs within the OSPF area.
+<p align="center">
+Step Nr.9 : OSPF configuration: <br/>
+<img src="https://i.imgur.com/ZcfGfS3.png" height="80%" width="80%" alt="Lab Steps Nr.9"/>
+<img src="https://i.imgur.com/hzH2oR2.png" height="80%" width="80%" alt="Lab Steps Nr.9"/>
+<img src="https://i.imgur.com/TNDRvNU.png" height="80%" width="80%" alt="Lab Steps Nr.9"/>
+<img src="https://i.imgur.com/FljfBf4.png" height="80%" width="80%" alt="Lab Steps Nr.9"/>
+<br />
+Step Nr.10: The next step involves configuring NAT to enable user access to the internet. I will begin by defining a default route on the Zurich Router towards the internet router. Following that, I will configure an access control list to translate the VLAN range from 10 to 30, and set up NAT for both the outside and inside networks to ensure user access to the internet.
+<p align="center">
+Step Nr.10 : NAT configuration: <br/>
+<img src="https://i.imgur.com/XBczpFe.png" height="80%" width="80%" alt="Lab Steps Nr.10"/>
+<img src="https://i.imgur.com/5AByp3P.png" height="80%" width="80%" alt="Lab Steps Nr.10"/>
+<img src="https://i.imgur.com/Ze35TIt.png" height="80%" width="80%" alt="Lab Steps Nr.10"/>
+<br />
+Step Nr.11: Next, I will configure the headquarters (HQ) and Abu Dhabi office side. I will begin by assigning the necessary IP addresses to the router interfaces, followed by configuring NAT. Subsequently, I will set up the default route and, finally, configure the access list on the router.
+<p align="center">
+Step Nr.11 : HQ Side configuration: <br/>
+<img src="https://i.imgur.com/c3qVkt5.png" height="80%" width="80%" alt="Lab Steps Nr.11"/>
+<br />
+Step Nr.12: The next step is to establish a reliable connection between the Zurich side and the servers in Abu Dhabi. To achieve this, I will configure a VPN on the Zurich router's public IP and the Abu Dhabi router to ensure connectivity between the two sites.
+<p align="center">
+Step Nr.12 : VPN configuration: <br/>
+<img src="https://i.imgur.com/G3GuQhC.png" height="80%" width="80%" alt="Lab Steps Nr.12"/>
+<img src="https://i.imgur.com/iOTFslk.png" height="80%" width="80%" alt="Lab Steps Nr.12"/>
+<br />
+Step Nr.13: Next, I will configure OSPF on the tunnel interfaces of both routers to exchange routing prefixes and establish connectivity between them.
+<p align="center">
+Step Nr.12 : OSPF configuration on tunnel interfaces: <br/>
+<img src="https://i.imgur.com/DRqU1Sp.png" height="80%" width="80%" alt="Lab Steps Nr.12"/>
+<br />
+Last Step: The final step is to verify that the servers have access to the ISP internet connection, and that users can access the servers. As demonstrated, both sides are successfully connected, and the lab setup is completed successfully.
+<p align="center">
+Last step : Connectivity and accomplishment: <br/>
+<img src="https://i.imgur.com/s087YuW.png" height="80%" width="80%" alt="Lab Steps Nr.12"/>
+<img src="https://i.imgur.com/5jMrmYZ.png" height="80%" width="80%" alt="Lab Steps Nr.12"/>
+<br />
+
 
 
 
