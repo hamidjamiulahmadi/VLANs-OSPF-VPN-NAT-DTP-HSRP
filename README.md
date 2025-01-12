@@ -23,7 +23,39 @@ Step Nr.2 : allocating IP addresses: <br/>
 <img src="https://i.imgur.com/pXNb9My.png" height="80%" width="80%" alt="Lab Steps Nr.2"/>
 <img src="https://i.imgur.com/iTWEGvE.png" height="80%" width="80%" alt="Lab Steps Nr.2"/>
 <br />
-
+Step Nr.3: Subsequently, I will configure VLANs on the access switches, as illustrated in the diagram.
+<p align="center">
+Step Nr.3 : configuration of VLANs: <br/>
+<img src="https://i.imgur.com/Wb1f5eA.png" height="80%" width="80%" alt="Lab Steps Nr.3"/>
+<img src="https://i.imgur.com/gOkazbh.png" height="80%" width="80%" alt="Lab Steps Nr.3"/>
+<br />
+Step Nr.4: Next, I will configure DTP (Dynamic Trunking Protocol) on the distribution layer switches.
+<p align="center">
+Step Nr.4 : configuration of DTP: <br/>
+<img src="https://i.imgur.com/G2955D9.png" height="80%" width="80%" alt="Lab Steps Nr.4"/>
+<img src="https://i.imgur.com/FCsWB7I.png" height="80%" width="80%" alt="Lab Steps Nr.4"/>
+<br />
+Step Nr.5: Next, I will create VLANs and configure SVIs (Switched Virtual Interfaces) on the distribution layer switches.
+<p align="center">
+Step Nr.5 : configuration of VLANs, SVI: <br/>
+<img src="https://i.imgur.com/4XsIXLm.png" height="80%" width="80%" alt="Lab Steps Nr.5"/>
+<img src="https://i.imgur.com/ki4U1Hw.png" height="80%" width="80%" alt="Lab Steps Nr.5"/>
+<img src="https://i.imgur.com/RRksgCI.png" height="80%" width="80%" alt="Lab Steps Nr.5"/>
+<br />
+Step Nr.6: Next, I will configure HSRP (Hot Standby Router Protocol) on the distribution layer switches.
+<p align="center">
+Step Nr.6 : configuration of HSRP: <br/>
+<img src="https://i.imgur.com/twJhisx.png" height="80%" width="80%" alt="Lab Steps Nr.6"/>
+<img src="https://i.imgur.com/6dt7nOb.png" height="80%" width="80%" alt="Lab Steps Nr.6"/>
+<img src="https://i.imgur.com/KeMkKem.png" height="80%" width="80%" alt="Lab Steps Nr.6"/>
+<br />
+Step Nr.7: Here, I will configure the IP addresses between the distribution layer and the core layer. First, I will configure the distribution layer switch, followed by the configuration of the Zurich router.
+<p align="center">
+Step Nr.7 : configuration between distribution layer and core layer: <br/>
+<img src="https://i.imgur.com/ID3E0aC.png" height="80%" width="80%" alt="Lab Steps Nr.7"/>
+<img src="https://i.imgur.com/YVb6uhX.png" height="80%" width="80%" alt="Lab Steps Nr.7"/>
+<img src="https://i.imgur.com/5ULt5EQ.png" height="80%" width="80%" alt="Lab Steps Nr.7"/>
+<br />
 
 
 
