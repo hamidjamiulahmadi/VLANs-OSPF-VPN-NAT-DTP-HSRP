@@ -1,7 +1,9 @@
 <h1>VLANs,OSPF,VPN,NAT,DTP,HSRP</h1>
 
 <h2>Goal</h2>
-<br />In this lab, I will configure the Enhanced Interior Gateway Routing Protocol (EIGRP) to facilitate connectivity between the Frankfurt customer branch and the Berlin sales branch. Additionally, I will incorporate two Internet Service Providers (ISPs) into the network architecture, ensuring that in the event of a connection loss with ISP1, traffic will seamlessly reroute through ISP2 for redundancy. To achieve this objective, I will utilize a total of five Cisco routers, two switches, two personal computers, and two laptops. The initial phase will involve configuring each router with its designated interfaces, followed by the assignment of IP addresses to the PCs and laptops. Subsequently, I will implement the EIGRP protocol on each router, explicitly defining the networks associated with each interface. Finally, I will conduct rigorous testing to confirm the optimal functionality of the entire configuration.. 
+<br />In the network that I am setting up, I will configure the Zurich network users to have access to the HQ servers, ensuring that users from the Zurich side can seamlessly connect to the Abu Dhabi servers.
+Additionally, to ensure optimal connectivity, I will configure VLANs (Virtual Local Area Network), OSPF (Open Shortest Path First), VPN (Virtual Private Network), NAT (Network Address Translation), DTP (Dynamic Trunking Protocol), and HSRP (Hot Standby Router Protocol) in this lab environment.
+
 <br />
 
 
