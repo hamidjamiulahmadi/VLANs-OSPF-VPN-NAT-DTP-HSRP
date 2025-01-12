@@ -17,7 +17,12 @@ Step Nr.1: The initial step involves creating a network diagram to provide a cle
 Step Nr.1 : Network Diagram: <br/>
 <img src="https://i.imgur.com/3bE6TBi.png" height="80%" width="80%" alt="Lab Steps Nr.1"/>
 <br />
-
+Step Nr.2: Here, I will allocate IP addresses to each PC, laptop, and server.
+<p align="center">
+Step Nr.2 : allocating IP addresses: <br/>
+<img src="https://i.imgur.com/pXNb9My.png" height="80%" width="80%" alt="Lab Steps Nr.2"/>
+<img src="https://i.imgur.com/iTWEGvE.png" height="80%" width="80%" alt="Lab Steps Nr.2"/>
+<br />
 
 
 
